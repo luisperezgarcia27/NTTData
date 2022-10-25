@@ -1,0 +1,68 @@
+.Home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+
+}
+.Home__Container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.Home__Container__Form {
+  display: flex;
+  flex-direction: column;
+}
+.Home__Container__Content {
+  display: flex;
+  flex-direction: column;
+}
+.Home__Container__Content input{
+  background-color: #EAEDF2;
+}
+.Home__Container__Form select,input{
+  padding: 5px 20px;
+  margin-top: 8px;
+}
+.Home__Container__Form label{
+  color: #96B4D8;
+}
+.Home__Container__Button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ButtonDisabled button{
+  margin: 20px;
+  padding: 10px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid #EAEDF2;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  background: linear-gradient(black, black) left no-repeat, linear-gradient(black, black) right no-repeat #EAEDF2;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.ButtonEnabled button{
+  margin: 20px;
+  padding: 10px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid #174e84;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  background: linear-gradient(black, black) left no-repeat, linear-gradient(black, black) right no-repeat #174e84;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
